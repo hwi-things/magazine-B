@@ -1,0 +1,36 @@
+footer {
+  color: $color-grey-light;
+
+  .logo-text-footer {
+    width: 25%;
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    float: left;
+    @include mq("small-screen-3") {
+      margin-right: 1rem;
+      width: 20%;
+    }
+  }
+  .copyright {
+    width: 75%;
+    font-size: 1.2rem;
+    float: left;
+
+    @include mq("small-screen-3") {
+      width: 60%;
+    }
+    p:nth-child(1) {
+      margin-bottom: 2rem;
+      word-break: break-all;
+      text-align: justify;
+
+      column-count: 3;
+      column-gap: 3rem;
+      column-rule-style: dashed;
+      column-rule-width: 1px;
+      column-rule-color: #888;
+      column-width: 1rem;
+    }
+  }
+}

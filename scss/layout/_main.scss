@@ -1,0 +1,35 @@
+
+main{
+  .section-shop {
+    padding-top: 3rem;
+    background: rgb(242, 242, 242);
+    .container{
+      .section-shop-contents {
+        display: flex;
+        margin-top: 3.75rem;
+        padding-bottom: 2rem;
+    
+        li {
+          width: 19rem;
+          flex: 0 0 auto;
+          margin-right: 2.5rem;
+          margin-bottom: 2.5rem;
+          img {
+            width: 100%;
+          }
+        }
+      }
+  
+  }
+  }
+  .section-date{
+    margin-top: 10rem;
+   h2{
+    text-align: right;
+    padding-bottom: 5rem;
+   }
+  
+  }
+
+
+}
