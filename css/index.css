@@ -317,12 +317,12 @@ header #banner .banner_slide li {
   height: 100%;
 }
 header #banner .banner_slide .slide_0 {
-  background-image: url(../../images/slide01.jpg);
+  background-image: url(./images/slide01.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 header #banner .banner_slide .slide_1 {
-  background-image: url(../../images/slide02.png);
+  background-image: url(./images/slide02.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
