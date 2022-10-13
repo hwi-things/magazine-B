@@ -66,15 +66,20 @@ header {
   #banner .banner_slide .slide_0{
     background-image: url(../../images/slide01.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+
   }
   #banner .banner_slide .slide_1{
     background-image: url(../../images/slide02.png);
     background-size: cover;
+    background-repeat: no-repeat;
+
 
   }
   #banner .banner_slide .slide_2{
     background-image: url(../../images/slide03.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
 
   }
 }
